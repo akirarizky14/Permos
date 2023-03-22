@@ -1,0 +1,76 @@
+.container-Aboutus{
+    height: 750px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container-Aboutus .top-Aboutus{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.container-Aboutus .top-Aboutus .box-Aboutus-name{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px grey;
+    height: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.container-Aboutus .top-Aboutus .box-Aboutus-name .Aboutus-name{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.middle-Aboutus .middle-bph{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.middle-Aboutus .middle-bph .aboutus-visi-misi{
+    display: flex;
+    background-color: antiquewhite;
+    width: 1000px;
+    justify-content: space-around;
+
+}
+
+.middle-Aboutus .middle-bph .aboutus-visi-misi .img-ketua{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.middle-Aboutus .middle-bph .aboutus-visi-misi .img-ketua caption{
+    font-size: 24px;
+}
+.middle-Aboutus .middle-bph .aboutus-visi-misi .foto-ketua{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.wsb-bph{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.wsb-bph .foto-wsb img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    padding: 30px;
+}

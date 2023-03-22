@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: black;
+    color: white;
+}
+nav a{
+    margin: 0 2rem;
+    color: white;
+    text-decoration: white;
+}
+
+nav a:hover{
+    color: rgb(195, 195, 195);
+}
+header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    visibility: hidden  ;
+    opacity: none;
+}
+
+@media only screen and (max-width: 800px ) {
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: black;
+        transform: translateY(-200vh);
+        transition: 0.5s;
+    }
+    header .responsive_nav{
+        transform: none;
+    }
+    nav .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+
+    }
+}

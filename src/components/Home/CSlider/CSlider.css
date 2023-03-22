@@ -1,0 +1,29 @@
+.container-Slider{
+    position: relative;
+    width: 100%;
+  }
+  
+  .container-Slider img {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .container .btn-slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    padding: 12px 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .container .btn-slider:hover{
+    background-color: #404040;
+  }
