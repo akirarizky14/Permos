@@ -3,7 +3,6 @@ import React from 'react'
 function Study() {
   return (
     <div>
-      
         
             <h1 className='study'>
                 <button className='btn-study'>Study</button>

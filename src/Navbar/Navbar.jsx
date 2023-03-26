@@ -10,7 +10,7 @@ function Navbar() {
     }
   return (
     <header>
-        <h3>logo</h3>
+        <h3>Permos</h3>
         <nav ref={navRef}>
             <Link to='/'>Home</Link>
             <Link to='/Aboutus'>About us</Link>
