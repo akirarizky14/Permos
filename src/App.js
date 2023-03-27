@@ -8,6 +8,7 @@ import Aboutus from './components/Aboutus/Aboutus';
 import Study from './components/Study/Study';
 import Tips from './components/Tips/Tips';
 import Gallery from './components/Gallery/Gallery';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/Gallery' element={<Gallery/>}/>
 
           </Routes>
+          <Footer></Footer>
     </BrowserRouter>
   );
 }

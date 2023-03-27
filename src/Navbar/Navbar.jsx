@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import {FaBars,FaTimes} from 'react-icons/fa'
 import { useRef } from 'react'
 import './Navbar.css'
+import logoPermos from '../assets/logo permos.jpg'
 function Navbar() {
     const navRef = useRef()
     const showNavbar = () =>{
@@ -10,7 +11,12 @@ function Navbar() {
     }
   return (
     <header>
-        <h3>Permos</h3>
+        <div className='navbar-logo'>
+                    <img src={logoPermos} alt='/'  className='logo'/>
+                <p className='permos'>
+                Permos
+                </p>
+                </div>
         <nav ref={navRef}>
             <Link to='/'>Home</Link>
             <Link to='/Aboutus'>About us</Link>

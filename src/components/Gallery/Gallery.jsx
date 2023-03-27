@@ -1,19 +1,33 @@
-import React from 'react'
+import React from 'react';
 import './Gallery.css'
-import msk2 from '../../assets/msk2.jpg'
-import msk3 from '../../assets/msk3.jpg'
+import images from '../../assets/msk3.jpg'
 
-function Gallery() {
-  return (
-    <div>
-      <button>Gallery</button>
+ function Gallery(){
+    return (
 
-    <p>KEGIATAN A</p>
-    <img src={msk2} alt='/' className='img-gallery1'/>
-    <p>KEGIATAN B</p>
-    <img src={msk3} alt='/' className='img-gallery2'/>      
-    </div>
-  )
-}
+        <div>
+    <h1 className='gallery'>
+        <button className='btn-gallery'>Gallery</button>
+        </h1>
+
+        <div className='content'>
+        <div className='container-img-gallery'>
+        <p className='title-kegiatan'>KEGIATAN B</p>
+        <img src={images} alt='/' className='img-gallery' />
+        </div>
+
+        <br/>
+        <br/>
+
+        <div className='container-img-gallery'>
+        <p className='title-kegiatan'>KEGIATAN B</p>
+        <img src={images} alt='/' className='img-gallery'/>
+        </div>
+        </div>
+
+        </div>
+
+    );
+};
 
 export default Gallery
