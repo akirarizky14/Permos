@@ -6,11 +6,12 @@
     flex-direction: column;
 }
 .container-Aboutus .top-Aboutus{
-    height: 200px;
+    height: 50px;
     display: flex;
     justify-content: center;
     padding: 5px;
     background-color: rgb(255, 255, 255);
+    margin: 50px;
 }
 .container-Aboutus .top-Aboutus .box-Aboutus-name{
     background-color: rgb(255, 255, 255);
@@ -28,49 +29,188 @@
     align-items: center;
 }
 
-.middle-Aboutus .middle-bph{
-    background-color: aqua;
+.bph-Aboutus{
+    width: 100%;
+    height: 820px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bph-Aboutus .middle-bph{
+    width: 1100px;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bph-Aboutus .middle-bph h3{
+    font-size: 36px;
+}
+.bph-Aboutus .middle-bph .container-ketua-permos{
+    background-color: rgb(255, 255, 255);
+    width: 1100px;
+    height: 480px;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.bph-Aboutus .container-ketua-permos  .image-ketua-permos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bph-Aboutus .container-ketua-permos  .image-ketua-permos span{
+    font-size: 40px;
+    font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+}
+.bph-Aboutus .container-ketua-permos .image-ketua-permos img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 300px;
+    font-style: normal;
+
+}
+.bph-Aboutus .container-ketua-permos .visi-misi-ketua{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.bph-Aboutus .container-ketua-permos .visi-misi-ketua h3{
+    font-size: 28px;
+}
+.bph-Aboutus .container-ketua-permos .visi-misi-ketua span{
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+}
+.wsb-permos{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.wsb-permos .wakil-permos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wsb-permos .wakil-permos img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.wsb-permos .wakil-permos span{
+    font-weight: 500;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+}
+.wsb-permos .sekretaris-permos img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.wsb-permos .sekretaris-permos span{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center; 
+}
+.wsb-permos .sekretaris-permos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wsb-permos .bendahara-permos img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.wsb-permos .bendahara-permos span{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center; 
+}
+.wsb-permos .bendahara-permos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.department-permos{
+    width: 100%;
+    height: 660px;
     display: flex;
     justify-content: center;
+}
+.container-department{
+    background-color: #F2F2F2;
+    width: 1230px;
+    height: 610px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+.container-department .title-department-permos h1{
+    font-size: 36px;
+}
+.bagan-department-permos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 70%;
+    height: 415px;
+    justify-content: center;
+    align-items: center;
+}
+.ketua-department{
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
-.middle-Aboutus .middle-bph .aboutus-visi-misi{
-    display: flex;
-    background-color: antiquewhite;
-    width: 1000px;
-    justify-content: space-around;
-
+.ketua-department span{
+    font-size: 38px;
 }
-
-.middle-Aboutus .middle-bph .aboutus-visi-misi .img-ketua{
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-}
-.middle-Aboutus .middle-bph .aboutus-visi-misi .img-ketua caption{
-    font-size: 24px;
-}
-.middle-Aboutus .middle-bph .aboutus-visi-misi .foto-ketua{
+.ketua-department img{
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 100px;
 }
-
-.wsb-bph{
-    height: 300px;
-    background-color: black;
+.anggota-department{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
     justify-content: center;
-    padding: 10px;
+    width: 60%;
 }
-.wsb-bph .foto-wsb img{
+.anggota-department img{
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 100px;
-    padding: 30px;
+}
+.anggota-dept{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.keterangan-department-permos{
+    height: 100px;
+    width: 60%;
 }
