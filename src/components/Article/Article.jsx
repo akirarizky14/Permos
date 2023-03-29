@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../App.css';
 import './Article.css';
+import images from '../../assets/msk3.jpg'
+
  function Article(){
     return (
 
@@ -11,12 +13,12 @@ import './Article.css';
 
                 <br/>
                 <div className='img-berita'>
-                <img src='images/msk3.jpg' className='img' alt='/'/>
+                <img src={images} className='img' alt='/'/>
                 <p className='info-berita'>Tuesday 7 March 2023 19.30 by Dani Fatsey</p>
                 </div>
                 
                 <br/><br/><br/>
-                <p className='text-berita'>
+                <div className='text-berita'>
                 DILANSUR DARI TRIBUN MOSKOW, PRESIDEN NEGARA TERBESAR DI DUNIA INI 
                 (PRESIDEN PUTIN) MENGEMUKAKAN DUKUNGAN SECARA TERBUKA UNTUK JOKOWI 
                 AGAR MENCALONKAN DIRI UNTUK PERIODE SELANJUTNYA. PRESIDEN PUTIN 
@@ -25,7 +27,7 @@ import './Article.css';
                 TUJUAN INDONESIA 2045. PUTIN JUGA MENAMBAHKAN BAHWA DIA 
                 MENGINGINKAN KERJA SAMA INDONESIA AGAR SEMAKIN ERAT JIKA JOKOWI NAIK 
                 LAGI KE PERIODE SELANJUTNYA.
-                </p>
+                </div>
 
         </div>
 

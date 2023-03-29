@@ -1,0 +1,64 @@
+
+.berita {
+    justify-content: center;
+}
+
+.title-berita {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: -275px;
+    font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 47px;
+  color: #000000;
+  }
+
+  .img-berita {
+    margin-top: -300px;
+    text-align: center;
+    display: block;
+    width: 100%;
+
+}
+
+.img {
+    width: 1200px;
+height: 672px;
+}
+
+.info-berita{
+    margin-left: -850px;
+    font-family: 'Roboto Condensed';
+font-style: italic;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.container-berita {
+    justify-content: center;
+    display: block;
+    background-color: aquamarine;
+}
+
+
+  .text-berita {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Lora', serif;
+font-style: italic;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+align-items: center;
+text-align: justify;
+  }

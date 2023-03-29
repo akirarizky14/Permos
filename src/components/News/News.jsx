@@ -19,7 +19,7 @@ function News() {
               <div className="container-isi-recent-news">
                 <div className="news">
                   <div className="box-news">
-                  <form action='/'>News</form>
+                  <a href='/News/1'>News</a>
                   </div>
                 </div>
                 <caption className='capt-recent-news'>
@@ -34,7 +34,7 @@ function News() {
               <div className="container-isi-recent-news">
                 <div className="news">
                   <div className="box-news">
-                    News
+                  <a href='/News/1'>News</a>
                   </div>
                 </div>
                 <caption className='capt-recent-news'>
@@ -49,7 +49,7 @@ function News() {
               <div className="container-isi-recent-news">
                 <div className="news">
                   <div className="box-news">
-                    News
+                  <a href='/News/1'>News</a>
                   </div>
                 </div>
                 <caption className='capt-recent-news'>

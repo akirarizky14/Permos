@@ -9,6 +9,7 @@ import Study from './components/Study/Study';
 import Tips from './components/Tips/Tips';
 import Gallery from './components/Gallery/Gallery';
 import Footer from './Footer/Footer';
+import Article from './components/Article/Article';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path='/Study' element={<Study/>}/>
             <Route path='/Tips' element={<Tips/>}/>
             <Route path='/Gallery' element={<Gallery/>}/>
+            <Route path='/News/1' element={<Article/>}/>
 
           </Routes>
           <Footer></Footer>
