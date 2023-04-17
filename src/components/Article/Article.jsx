@@ -6,10 +6,12 @@ import images from '../../assets/msk3.jpg'
  function Article(){
     return (
 
-        <div className='berita'>
+        <div >
+            <h1 className='berita'>
             <p className='title-berita'>
             HOT NEWS!!! PUTIN DUKUNG JOKOWI NAIK UNTUK PERIODE KE 3
                 </p>
+            </h1>
 
                 <br/>
                 <div className='img-berita'>

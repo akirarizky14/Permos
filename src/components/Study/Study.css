@@ -35,3 +35,18 @@
   .btn-study:active {
     border-style: outset;
   }
+
+  @media only screen and (max-width: 800px ) {
+    .btn-study {
+      font-size: 20px;
+      width: 106px;
+      height: 46px;
+    }
+  
+    .text-study {
+      margin-top: 100px;
+      margin-left: 20px;
+      margin-right: 20px;
+    font-size: 20px;
+    }
+}
