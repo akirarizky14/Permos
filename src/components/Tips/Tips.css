@@ -3,7 +3,6 @@
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
     margin-top: 50px;
   }
 
@@ -30,7 +29,7 @@
     font-family: 'Lora', serif;
   font-style: italic;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 42px;
   text-align: justify;
   color: #000000;
@@ -42,7 +41,7 @@
 
   @media only screen and (max-width: 800px ) {
     .tips {
-      font-size: 20px;
+      font-size: 12px;
     }
 
     .btn-tips {
@@ -55,6 +54,8 @@
       margin-top: 100px;
       margin-left: 20px;
       margin-right: 20px;
-    font-size: 20px;
+    font-size: 12px;
+      line-height: 15px;
+      height: 50px;
     }
 }
